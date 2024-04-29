@@ -1,0 +1,9 @@
+Juego de Piedra, Papel o Tijeras
+
+Características: La interfaz de usuario es simple y fácil de entender, lo que hace que jugar sea intuitivo. 
+Juega Contra la Computadora: Puedes elegir tu jugada entre piedra, papel o tijeras, y la computadora elegirá al azar su jugada. 
+Consola de Resultados: Después de cada partida, se muestra el resultado en una consola donde puedes ver si ganaste, perdiste o empataste. 
+Tabla de Puntuaciones: Mantén un registro de tus victorias acumuladas contra la computadora con una tabla de puntuaciones.(under construction) 
+Responsive: La página web es completamente responsive, lo que significa que se adapta a diferentes tamaños de pantalla, permitiéndote jugar desde tu computadora de escritorio, tableta o teléfono móvil. 
+Cómo Jugar: Ingresa tu nombre y comienza la partida. Selecciona tu jugada entre piedra, papel o tijeras haciendo clic en los botones correspondientes. Espera a que la computadora elija su jugada. 
+Descubre quién gana y observa el resultado en la consola

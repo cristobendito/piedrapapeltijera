@@ -1,0 +1,39 @@
+.containerBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#nameForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#nameForm input[type="text"] {
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #44d8a4;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#nameForm button[type="submit"] {
+  width: 200px;
+  height: 50px;
+  background-color: #44d8a4;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#nameForm button[type="submit"]:hover {
+  background-color: #3ab089;
+}

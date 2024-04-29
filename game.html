@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/home/belen/Escritorio/bootcamp/RockPaperScissors/styleBody.css">
+    <link rel="stylesheet" href="/home/belen/Escritorio/bootcamp/RockPaperScissors/styleBotonesGame.css">
+    <link rel="stylesheet" href="/home/belen/Escritorio/bootcamp/RockPaperScissors/mediaquerys.css">
+    <link rel="stylesheet" href="/home/belen/Escritorio/bootcamp/RockPaperScissors/stylePuntuaciones.css">
+    <title>🗿 📄  ✂️</title>
+</head>
+<body>
+    <div class="principal">
+        <div id="container">
+            <div id="tablaPuntuaciones">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Jugadores</th>
+                            <th>Puntos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Fila de Jugadores -->
+                        <tr>
+                            <td>BonnieBell</td>
+                            <td id="puntosBonnie">490</td> <!-- Puntos aleatorios para Jake -->
+                        </tr>
+                        <tr>
+                            <td>Marceline</td>
+                            <td id="puntosMarci">120</td> 
+                        </tr>
+                        <tr>
+                            <td>Jake the Dog</td>
+                            <td id="puntosJake">100</td> 
+                        </tr>
+                        <tr>
+                            <td>Finn</td>
+                            <td id="puntosFinn">20</td> 
+                        </tr>
+                        <!-- Aquí se generará la tabla de puntuaciones -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="consoleContainer">
+                <div id="console" class="console"></div>
+            </div>
+        </div>
+
+        <div class="containerButton">
+            <button id="rockButton" class="botonJuego1" data-choice="rock">
+                <span>🪨</span>
+                <span>PIEDRA</span>
+            </button>
+            <button id="paperButton" class="botonJuego" data-choice="paper">
+                <span>📄</span>
+                <span>PAPEL</span>
+            </button>
+            <button id="scissorsButton" class="botonJuego2" data-choice="scissors">
+                <span>✂️</span>
+                <span>TIJERA</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="/home/belen/Escritorio/bootcamp/RockPaperScissors/piedraBoton.js"></script>
+    <script src="/home/belen/Escritorio/bootcamp/RockPaperScissors/papelBoton.js"></script>
+    <script src="/home/belen/Escritorio/bootcamp/RockPaperScissors/tijerasBoton.js"></script>
+    <!-- <script src="/home/belen/Escritorio/bootcamp/RockPaperScissors/puntuaciones.js>"></script> -->
+    <script src="/home/belen/Escritorio/bootcamp/RockPaperScissors/popup.js"></script>
+</body>
+</html>

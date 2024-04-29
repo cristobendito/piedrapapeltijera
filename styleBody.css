@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/home/belen/Escritorio/bootcamp/RockPaperScissors/imgs/v1066-070c.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #f8f8f8;
+  }
+  .principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    flex-direction: column;
+  }

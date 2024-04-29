@@ -1,0 +1,70 @@
+/* Estilos para la consola */
+#container {
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+    margin: 20px auto;
+}
+
+#consoleContainer {
+    flex: 1;
+    width: 750px;
+    height: 300px;
+    border: 5px solid #777070;
+    margin-right: 20px;
+    overflow-y: auto;
+    background-color: #131313;
+    color: #333;
+
+}
+
+#console {
+    width: 75%;
+    height: 75%;
+    padding: 10px;
+    font-family: monospace;
+    white-space: pre-wrap;
+    color: #36b400;
+}
+
+/* Estilos para la tabla de puntuaciones */
+#tablaPuntuaciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    width: 50%;
+    max-width: 50%;
+}
+
+#tablaPuntuaciones table {
+    border-collapse: collapse;
+    width: 80%; /* Reducido el ancho de la tabla */
+    border: 2px solid #212121; /* Cambiado el color del borde */
+    background-color: #212121; /* Cambiado el color de fondo */
+}
+
+#tablaPuntuaciones th, #tablaPuntuaciones td {
+    padding: 10px; /* Aumentado el espacio interno de las celdas */
+    text-align: center;
+    border: 2px solid #fff; /* Cambiado el color del borde */
+    color: #fff; /* Cambiado el color del texto */
+}
+
+#tablaPuntuaciones th {
+    background-color: #000; /* Cambiado el color de fondo del encabezado */
+}
+
+#tablaPuntuaciones tr:nth-child(even) {
+    background-color: #444; /* Cambiado el color de fondo de las filas pares */
+}
+
+#tablaPuntuaciones tr:nth-child(odd) {
+    background-color: #333; /* Cambiado el color de fondo de las filas impares */
+}
+
+#tablaPuntuaciones tr:hover {
+    background-color: #555; /* Cambiado el color de fondo al pasar el cursor */
+}
+
+  

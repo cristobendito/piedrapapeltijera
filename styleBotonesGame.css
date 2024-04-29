@@ -1,0 +1,86 @@
+.containerButton {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+/*     margin-top: 120px; // distancia desde la parte superior d la pag*/ 
+    align-items: center;
+    gap: 20px; /* Espacio entre los botones */
+}
+
+.botonJuego1, .botonJuego2, .botonJuego {
+    font-family: inherit;
+    font-size: 24px; /* Ajuste el tamaño del texto del botón */
+    background: #212121;
+    color: white;
+    padding: 2em 2.5em; /* Ajuste el espacio interior del botón */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    font-weight: 1000;
+    transition: background 0.3s ease;
+    margin-bottom: 20px; /* Ajusta el espacio entre los botones */
+}
+
+.botonJuego1, .botonJuego2, .botonJuego span:first-child {
+    margin-right: 0.5em;
+}
+
+.botonJuego1:hover, .botonJuego2:hover, .botonJuego:hover {
+    background: #000;
+}
+
+.botonJuego1:hover span:first-child , .botonJuego2:hover span:first-child , .botonJuego:hover span:first-child {
+    animation: rock-animate 0.8s infinite alternate; /* Animación del emoji de la roca */
+}
+
+@keyframes rock-animate {
+    0% {
+    transform: translateY(0);
+    }
+    100% {
+    transform: translateY(-2px);
+    }
+}  
+
+
+@media only screen and (max-width: 600px) {
+    .principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 80vh;
+    }
+    .containerButton {
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        margin: 10px 0;
+    }
+    .botonJuego1, .botonJuego2, .botonJuego {
+        width: 100%;
+    }
+
+    #consoleContainer {
+        flex: 1;
+        width: 750px;
+        max-height: 97px; /* Altura máxima fija */
+        border: 5px solid #777070;
+        margin-right: 20px;
+        overflow-y: auto;
+        background-color: #131313;
+        color: #333;
+    }
+    }
+    #console {
+        width: 100%;
+    }
+    #tablaPuntuaciones {
+        width: 100%;
+    }
+    #tablaPuntuaciones table {
+        width: 100%;
+    }
